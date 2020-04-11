@@ -46,6 +46,7 @@ app.put("/repositories/:id", (request, response) => {
   }
 
   const repositorie = {
+    id,
     title,
     url,
     techs,
